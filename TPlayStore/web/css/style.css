@@ -1,0 +1,204 @@
+/*
+    Document   : style
+    Created on : Sep 4, 2012, 6:51:53 PM
+    Author     : tprog129
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.header {
+
+    margin-left: 290px;
+    position:relative;
+    background-image: url('images/entry-content.png');
+}
+
+.contenedorPrincipal{
+    clear: both;
+    width: 996px;
+    margin:0 auto 0 auto;
+    
+}
+
+.contenedorPrincipal .izquierda
+{
+    position:relative;
+    float:left;
+    width: 150px;
+    padding-top: 25px;
+    padding-right: 70px;
+    text-align: left;    
+}
+
+.wrapper{
+	position: relative;
+	float: left;
+	left: 20px;
+	width: 662px;
+}
+.wp1{
+	position: relative;		
+	width: 662px;
+}
+
+.wp2{
+	position: relative;		
+	width: 662px;
+}
+
+.wp3{
+	position: relative;		
+	width: 662px;
+}
+
+
+.cell{
+	margin-top: 10px;
+        height: 148px;
+        width: 148px;
+        margin-left: 10px;
+        float: left;
+        background-image: url('images/estampilla.png')
+}
+
+body {
+   border-width: 0px;
+   padding: 0px;
+   margin: 0px;
+   font-size: 90%;
+   background-image: url('images/Background.jpg');
+   background-position: 100%;
+   background-attachment: fixed;
+}
+
+.carousel-container {
+  padding-top:10px;
+  padding-bottom:40px;
+  width:960px;
+  margin:0 auto 0 auto;
+  height: 280px
+}
+#carousel {
+  height:280px;
+  width:960px;
+  position:relative;
+  margin-bottom:0.5em;
+  font-size:12px;
+  font-family: Arial;
+}
+.carousel-image {
+  border:0;
+  display:block;
+  width: 470px;
+  height: 250px;
+}
+.carousel-feature {
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+  border:2px solid #5d5d5d;
+  cursor:pointer;
+}
+.carousel-feature .carousel-caption {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color:#000;
+}
+.carousel-feature .carousel-caption p {
+  margin:0;
+  padding:5px;
+  font-weight:bold;
+  font-size:12px;
+  color:white;
+}
+.tracker-summation-container {
+  position:absolute;
+  color:white;
+  right:48px;
+  top:230px;
+  padding:3px;
+  margin:3px;
+  background-color:#000;
+}
+.tracker-individual-container {
+  position:absolute;
+  color:white;
+  right:48px;
+  top:210px;
+  padding:0;
+  margin:0;
+}
+.tracker-individual-container li {
+  list-style:none;
+}
+.tracker-individual-container .tracker-individual-blip {
+  margin:0 3px;
+  padding:0 3px;
+  color:white;
+  text-align:center;
+  background-color:#DDD;
+}
+.tracker-individual-container .tracker-individual-blip-selected {
+  color:white;
+  font-weight:bold;
+  background-color:#000;
+}
+#carousel-left {
+  position:absolute;
+  bottom:33px;
+  left:220px;
+  cursor:pointer;
+}
+#carousel-right {
+  position:absolute;
+  bottom:33px;
+  right:220px;
+  cursor:pointer;
+}
+
+.divConsulta{
+    clear: both;
+    padding-top: 20px;
+    width: 996px;
+    margin:0 auto 0 auto;
+
+}
+
+  a.main:link{
+           text-decoration:underline;
+            color:#363636 ;
+            font-family: Arial;           
+        }
+
+ a:link{
+            font-family: Arial;
+        }
+    a {
+      color: #0088cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #005580;
+      text-decoration: underline;
+    }
+
+    .precio{
+        font-family: Arial;
+        font-size: 75%;        
+    }
+
+  #rateStatus{float:left; clear:both; width:100%; height:20px;}
+  #rateMe{clear:both; width:100px; height:20px; padding:0px; margin:0px;}
+  #rateMe li{float:left;list-style:none;}
+  #rateMe li a:hover,
+  #rateMe .on{background-image:url('images/Star.png');width:20px; height:20px;}
+  #rateMe a{float:left;background-image:url('images/StarGris.png');width:20px; height:20px}
+  #ratingSaved{display:none;}
+  .saved{color:red; }
